@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+ html {
+    scroll-behavior:smooth;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato' , sans-serif;
+    color: #505962;
+    background-color: rgba(255,255,255,0.987);
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0,0,0,.6) !important;
+}
+
+.navbar-brand img{
+    height: 2rem;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1665db;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    text-transform: uppercase;
+    widows: 100%;
+    right: 0;
+    left: 0;
+}
+
+.carousel-caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.carousel-caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+.narrow {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.offset:before {
+    height: 3.8rem;
+    margin-top: -3.8rem;
+    content: "";
+    display: block;
+}
+
+.btn-d {
+    border-width: medium;
+    border-radius: 0;
+    padding: 6.1rem 1.1rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+}
+
+.jumbotron {
+    border-radius: 0;
+    padding: 3rem 0 2rem;
+    margin-bottom: 0;
+}
+
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 1.9rem;
+}
+
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #1665db;
+    margin: 0 auto 2rem;
+}
+
+.photograph img {
+    max-width: 100%;
+    transition: transform .5s ease;
+}
+
+.row.no-padding [class*=col-] {
+    padding: 0;
+}
+
+.photograph img:hover {
+    transform: scale(1.1);
+    cursor: zoom-in;
+}
+
+.photograph {
+    overflow: hidden;
+}
+
+.card {
+    margin: 2rem;
+
+}
+
+footer {
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 3rem;
+    margin-top: 1rem;
+}
+
+footer img {
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+color: #1665db;
+}
+
+hr.socket {
+    border-top: .2rem solid #1665db;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .carousel-caption h1 {
+        font-size: 2.3rem;
+        letter-spacing: .15rem;
+        padding-bottom: 5rem;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+    .btn-lg {
+        font-size: 1rem;
+    }
+    .narrow h1 {
+        font-size: 1.5rem;
+    }
+    p.lead{
+        font-size: 1rem;
+    }
+}
+
+
+.fullscreen {
+    width: 100%;
+    height: 100vh;
+}
+
+.ul-scroll {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.ul-scroll-text{
+    display: block;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    background: white;
+    width: 30px;
+    color: #262626;
+    margin: 4px 0;
+    padding-left: 15px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.ul-scroll-text:hover {
+    text-decoration: none;
+}
+
+.gallery {
+    padding: 8px 0px;
+}
+
+.text-info{
+    display: inline-block;
+    position: relative;
+}
+
+.text-info h2{
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 0px 5px white;
+}
